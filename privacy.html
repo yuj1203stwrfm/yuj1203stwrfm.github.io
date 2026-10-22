@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー</title>
+<style>
+  body { margin: 0; background: #22364d; color: #f4efe3; font: 16px/1.8 system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px; }
+  h1 { font-size: 1.6rem; margin: 0 0 8px; }
+  h2 { font-size: 1.15rem; margin-top: 32px; color: #f6c257; }
+  a { color: #f6c257; }
+  .en { color: #c4d5dd; font-size: .95rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>プライバシーポリシー</h1>
+  <p>氷山ラボ アップロードツール（以下「このツール」）の、Google アカウントのデータの扱いについて書きます。最終更新: 2026年10月23日</p>
+
+  <h2>使う人</h2>
+  <p>このツールを使うのは、YouTube チャンネル「氷山ラボ」（@hyozanlab）の運営者だけです。ほかの人には提供していません。</p>
+
+  <h2>使う権限と、その目的</h2>
+  <ul>
+    <li><strong>youtube.upload</strong>: 作った動画を、自分のチャンネルに非公開でアップロードするため</li>
+    <li><strong>youtube.readonly</strong>: 自分のチャンネルと、アップロードした動画を確かめるため</li>
+    <li><strong>yt-analytics.readonly・yt-analytics-monetary.readonly</strong>: 自分のチャンネルの再生回数・視聴時間・収益の数字を読み、動画の作り方を見直すため</li>
+  </ul>
+  <p>これ以外の目的には使いません。</p>
+
+  <h2>保存するもの・しないもの</h2>
+  <ul>
+    <li>アクセスのための鍵（リフレッシュトークン）は、運営者の GitHub リポジトリの暗号化された保管場所（GitHub Actions の Secrets）にだけ置きます。</li>
+    <li>読みとった数字は、自分のチャンネルの記録として、運営者の非公開のリポジトリに保存します。</li>
+    <li>ほかの人の個人情報は集めません。</li>
+  </ul>
+
+  <h2>人に渡すこと</h2>
+  <p>Google から受けとったデータを、第三者に売ったり渡したりしません。広告にも使いません。このツールの Google ユーザーデータの使い方は、<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>（Limited Use の要件を含む）に従います。</p>
+
+  <h2>やめるとき</h2>
+  <p>Google アカウントの<a href="https://myaccount.google.com/permissions">サードパーティのアクセスの設定</a>から、いつでもこのツールのアクセスを取り消せます。取り消すと、鍵は使えなくなります。</p>
+
+  <h2>連絡先</h2>
+  <p>GitHub の <a href="https://github.com/yuj1203stwrfm">@yuj1203stwrfm</a> から連絡してください。</p>
+
+  <h2 class="en">Privacy Policy (English)</h2>
+  <div class="en">
+    <p>“Hyozan Lab Upload Tool” is used only by the owner of the YouTube channel Hyozan Lab (@hyozanlab). It requests youtube.upload (to upload the owner's videos to the owner's own channel as private videos), youtube.readonly (to verify the owner's channel and uploads), and yt-analytics.readonly / yt-analytics-monetary.readonly (to read the owner's own channel metrics to improve future videos). The refresh token is stored only in the owner's encrypted GitHub Actions Secrets; channel metrics are stored in the owner's private repository. No data is sold or shared with third parties or used for advertising. Use of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements. Access can be revoked at any time at https://myaccount.google.com/permissions. Contact: via GitHub <a href="https://github.com/yuj1203stwrfm">@yuj1203stwrfm</a>. Last updated: October 23, 2026.</p>
+  </div>
+</main>
+</body>
+</html>
